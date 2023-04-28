@@ -16,11 +16,15 @@ public class Exemplo_01 {
 		
 		for(int i = 0; i < teste1.length; i++) {
 			if(i%2 == 0) 
-				teste1[i] = teste1[i] * 5;
+				teste2[i] = teste1[i] * 5;
 			else
-				teste1[i] = teste1[i] + 5;
+				teste2[i] = teste1[i] + 5;
 			}
 		System.out.printf("%s\n" , "Resultado: ");
+		for(int i = 0; i <10; i++) {
+			System.out.printf("%s%d%s%d","teste1[", i,"]= ",teste1[i]);
+			System.out.printf("%10s%d%s%d\n","teste2[",i,"]= ",teste2[i]);
+		}
 		}
 	}
 
